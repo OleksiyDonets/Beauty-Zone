@@ -1,0 +1,62 @@
+:root {
+  --color-primary-blue: #2b7fff;
+  --color-primary-light: #ffffff;
+  --color-brand: #011c44;
+}
+
+/* Base */
+ul {
+  list-style-type: none;
+}
+
+/* Button */
+.button {
+  color: var(--color-primary-light);
+  background-color: var(--color-primary-blue);
+  border: 2px solid var(--color-primary-blue);
+  border-radius: 32px;
+  cursor: pointer;
+}
+
+.button:hover {
+  color: var(--color-brand);
+  background-color: transparent;
+}
+
+/* Link */
+.link {
+  color: var(--color-brand);
+}
+
+.link:hover {
+  color: var(--color-primary-blue);
+}
+
+.link2 {
+  color: var(--color-brand);
+}
+
+.link3 {
+  color: var(--color-primary-light);
+}
+
+.link3:hover {
+  color: var(--color-primary-blue);
+}
+
+/* Hero section */
+.hero-title {
+  color: var(--color-primary-blue);
+}
+
+.hero-title2 {
+  color: var(--color-brand);
+}
+
+.hero-title3 {
+  color: var(--color-primary-blue);
+}
+
+.security {
+  color: #747272;
+}
