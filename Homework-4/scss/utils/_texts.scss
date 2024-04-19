@@ -1,0 +1,25 @@
+.text-brand {
+  color: var(--color-brand);
+  font-family: "Play", sans-serif;
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 1.1;
+  text-align: center;
+}
+
+.text-brand-blue {
+  color: var(--color-primary-blue);
+}
+
+.text-contact {
+  color: var(--color-primary-light);
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 1.1;
+  margin-bottom: 32px;
+}
+
+.text-contact1 {
+  color: var(--color-primary-blue);
+  line-height: 1.1;
+}

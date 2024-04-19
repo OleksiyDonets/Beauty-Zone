@@ -1,0 +1,59 @@
+.hero-section {
+  padding-top: 82px;
+  padding-bottom: 28px;
+
+  @media screen and (min-width: $bp-desktop) {
+    padding-top: 160px;
+    padding-bottom: 126px;
+  }
+
+  &__background-image {
+    background-image: url("../images/doctor.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+
+  @media screen and (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    background-image: url("../images/doctor@2x.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+
+  &__logo-container {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    max-width: 100%;
+    align-items: center;
+
+    @media screen and (min-width: $bp-desktop) {
+      display: flex;
+      flex-direction: column;
+      margin: 0;
+      padding-left: 106px;
+      max-width: 50%;
+      align-items: flex-start;
+    }
+  }
+
+  &__title {
+    margin-bottom: 32px;
+    font-size: 53px;
+    color: var(--color-primary-blue);
+    font-family: "Play", sans-serif;
+    font-weight: 700;
+    line-height: 0.8;
+    text-align: center;
+
+    @media screen and (min-width: $bp-desktop) {
+      margin-bottom: 40px;
+      font-family: "Play", sans-serif;
+      font-size: 140px;
+      text-align: left;
+    }
+  }
+}

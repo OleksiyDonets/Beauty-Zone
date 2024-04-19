@@ -1,0 +1,94 @@
+.contact-section {
+  padding-bottom: 0 !important;
+  &__container {
+    justify-content: center;
+    display: flex;
+    gap: 24px;
+    flex-wrap: wrap;
+
+    @media screen and (min-width: $bp-tablet) {
+      gap: 32px;
+      padding-bottom: 96px;
+    }
+  }
+
+  &__title {
+    margin-bottom: 24px;
+    color: var(--color-brand);
+    font-family: "Roboto", sans-serif;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 1.1;
+    text-align: center;
+
+    @media screen and (min-width: $bp-tablet) {
+      margin-bottom: 48px;
+      font-family: "Play", sans-serif;
+      font-size: 64px;
+      font-weight: 700;
+    }
+  }
+
+  &__map {
+    display: block;
+    &--wrapper {
+      width: 100%;
+    }
+    flex-shrink: 0;
+    height: 232px;
+    border: none;
+    width: 100%;
+
+    &.desktop {
+      display: none;
+
+      @media screen and (min-width: $bp-desktop) {
+        display: block;
+      }
+    }
+
+    &.mobile {
+      @media screen and (min-width: $bp-desktop) {
+        display: none;
+      }
+    }
+
+    @media screen and (min-width: $bp-tablet) {
+      height: 500px;
+    }
+
+    @media screen and (min-width: $bp-desktop) {
+      border-radius: 32px;
+      width: 605px;
+      height: 480px;
+    }
+  }
+
+  &__form {
+    border-radius: 32px;
+    background-color: var(--color-brand);
+    background-image: url("../images/contact-background.png");
+    text-align: center;
+    width: 100%;
+    flex-shrink: 0;
+    padding: 48px 24px;
+    margin-bottom: 24px;
+
+    @media (min-width: $bp-tablet) {
+      margin-bottom: 0;
+    }
+
+    @media (min-width: $bp-desktop) {
+      height: 482px;
+      padding: 48px 56px;
+      width: 422px;
+    }
+  }
+}
+
+.contact-section .container {
+  width: 100%;
+  max-width: 1108px;
+  margin: 0 auto;
+  padding: 0 24px;
+}

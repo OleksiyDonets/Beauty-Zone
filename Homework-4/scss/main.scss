@@ -1,0 +1,26 @@
+@import "./utils/texts";
+@import "./utils/fonts";
+@import "./utils/mixins";
+@import "./utils/variables";
+@import "./base";
+@import "./utils/utils";
+
+@import "./components/button";
+@import "./components/carousel-button";
+@import "./components/contact_form";
+@import "./components/links";
+@import "./components/modal-form";
+@import "./components/pagination";
+@import "./components/procedure-card";
+@import "./components/whywe-card";
+
+@import "./layouts/about-us-section";
+@import "./layouts/contact-section";
+@import "./layouts/container";
+@import "./layouts/footer-section";
+@import "./layouts/header";
+@import "./layouts/hero-section";
+@import "./layouts/mobile-menu";
+@import "./layouts/procedure-section";
+@import "./layouts/section";
+@import "./layouts/why-we-section";
