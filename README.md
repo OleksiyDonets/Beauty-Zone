@@ -3,4 +3,4 @@
 [Homework 3](https://oleksiydonets.github.io/genius-homework/Homework-3)<br>
 [Homework 4](https://oleksiydonets.github.io/genius-homework/Homework-4)<br>
 
-[Homework-1JS](https://oleksiydonets.github.io/genius-homework/JS-homework_Homework-1)<br>
+
