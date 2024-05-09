@@ -6,5 +6,7 @@
 [JS-Homework 1](https://oleksiydonets.github.io/genius-homework/JS-Homework-1)<br>
 [JS-Homework 2](https://oleksiydonets.github.io/genius-homework/JS-Homework-2)<br>
 [JS-Homework 3](https://oleksiydonets.github.io/genius-homework/JS-Homework-3)<br>
-
 [JS-Homework 5](https://github.com/OleksiyDonets/genius-homework/blob/main/JS-Homework-5/js/script-1.js)<br>
+[JS-Homework 6](https://github.com/OleksiyDonets/genius-homework/blob/main/JS-Homework-6/js/script-1.js)<br>
+[JS-Homework 7](https://github.com/OleksiyDonets/genius-homework/blob/main/JS-Homework-7/js/script-1.js)<br>
+[JS-Homework 8](https://github.com/OleksiyDonets/genius-homework/blob/main/JS-Homework-8/js/script-1.js)<br>
