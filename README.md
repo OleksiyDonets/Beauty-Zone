@@ -10,3 +10,5 @@
 [JS-Homework 6](https://github.com/OleksiyDonets/genius-homework/blob/main/JS-Homework-6/js/script-1.js)<br>
 [JS-Homework 7](https://github.com/OleksiyDonets/genius-homework/blob/main/JS-Homework-7/js/script-1.js)<br>
 [JS-Homework 8](https://github.com/OleksiyDonets/genius-homework/blob/main/JS-Homework-8/js/script-1.js)<br>
+
+[JS-Homework 12](https://github.com/OleksiyDonets/genius-homework/blob/main/JS-Homework-12/js/index.js)<br>
